@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.cont {
+  display: flex;
+
+  width: 50%;
+}
+
+.flex-cont {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-cont {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.right-cont {
+  display: flex;
+  width: 30%;
+}
+
+.item {
+  margin: 5px 0px;
+}
+
+.btn {
+  margin-top: 5px;
+}
+
+.counter {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 5px;
+  font-size: 40px;
+}
